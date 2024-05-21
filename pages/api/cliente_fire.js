@@ -1,5 +1,5 @@
 // import { addDoc } from "firebase/firestore";
-import openDB from "../../database/dbConfig";
+// import openDB from "../../database/dbConfig";
 import { app, database } from "../../service/firebase";
 
 import { collection, addDoc, doc, getDoc, getDocs, updateDoc, deleteDoc } from "firebase/firestore";
@@ -7,7 +7,7 @@ import { collection, addDoc, doc, getDoc, getDocs, updateDoc, deleteDoc } from "
 const dbInstance = collection(database, "isacbd")
 
 export default async function handler(req, res) {
-  const db = await openDB();
+  // const db = await openDB();
 
   if (req.method === "GET") {
     const id = req.query.id;
