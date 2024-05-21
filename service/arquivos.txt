@@ -1,0 +1,7 @@
+apiKey: "AIzaSyD_qjjJKYXtJE2G3-CtQIfsNbA4FsDZj6Q",
+  authDomain: "crud-a8104.firebaseapp.com",
+  projectId: "crud-a8104",
+  storageBucket: "crud-a8104.appspot.com",
+  messagingSenderId: "631043762211",
+  appId: "1:631043762211:web:0dbd9622b2295156a8e996",
+  measurementId: "G-71JFDDVY8X"
